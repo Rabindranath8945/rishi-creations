@@ -1,33 +1,46 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  padding: 0;
+  margin: 0;
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-} */
+.container {
+  width: 1140px;
+  margin: auto;
+}
+.container-fluid {
+  width: 95vw;
+  margin: auto;
+}
+.header {
+  height: 75vh;
+  background-image: url(../../public/labour-manpower.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-inner {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+ul.header-menu-list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  list-style-type: none;
+}
+ul.header-menu-list li.header-menu-list-item {
+  padding-left: 10px;
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 200;
+}
+ul.header-menu-list li.header-menu-list-item a.header-menu-list-item-link {
+  text-decoration: none;
+  color: #000;
+}
+ul.header-menu-list
+  li.header-menu-list-item
+  a.header-menu-list-item-link:hover {
+  color: #535353;
+}
