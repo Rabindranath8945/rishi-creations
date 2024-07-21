@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <>
@@ -27,8 +29,29 @@ export default function About() {
             </div>
           </div>
           <div className="about-main-content">
-            <div className="about-main-content-inner">
-              <p>Hello World</p>
+            <div className="about-main-content-first-row-item">
+              <div className="about-main-content-inner">
+                <p className="about-main-content-inner-sub-heading">
+                  Why Choose Us
+                </p>
+                <p className="about-main-content-inner-heading">
+                  Were on a mission
+                  <br />
+                  to your business grow
+                </p>
+              </div>
+              <div className="about-main-content-first-row-image">
+                <Image
+                  src="/images/circle-rishi-creation.png"
+                  height={150}
+                  width={150}
+                />
+              </div>
+            </div>
+            <div className="about-main-content-second-row-item">
+              <div className="second-row-item-image">
+                <Image src="/images/about-image.png" height={620} width={650} />
+              </div>
             </div>
           </div>
         </div>

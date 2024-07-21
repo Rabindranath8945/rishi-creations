@@ -2,6 +2,7 @@
 body {
   padding: 0;
   margin: 0;
+  scrollbar-width: 10px;
 }
 /* Container & Container Fluid Style */
 .container {
@@ -128,14 +129,35 @@ h2.banner-second-heading span.banner-second-heading-span {
 .about-content-inner {
   padding-inline: 25px;
   padding-block: 40px;
-  border: 2px solid #534c4c;
+  border: 1px solid #fff;
   border-radius: 6px;
   margin: 20px;
-  box-shadow: 13px 12px 14px 0px #939393;
+  box-shadow: 4px 17px 14px 0px #f3f3f3;
 }
 .about-content-inner h2.about-content-heading {
   font-size: 25px;
 }
 .about-content-inner p.about-para {
   font-size: 18px;
+}
+.about-main-content {
+  padding-block: 50px;
+}
+.about-main-content .about-main-content-first-row-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-main-content-inner p.about-main-content-inner-sub-heading {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #4b00d7;
+  line-height: 0.1;
+}
+.about-main-content-inner p.about-main-content-inner-heading {
+  font-size: 35px;
+  font-weight: bold;
+  color: #000;
 }
