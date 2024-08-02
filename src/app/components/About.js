@@ -43,14 +43,21 @@ export default function About() {
               <div className="about-main-content-first-row-image">
                 <Image
                   src="/images/circle-rishi-creation.png"
+                  className="about-rotate-img"
                   height={150}
                   width={150}
+                  alt="Award Winning Agency"
                 />
               </div>
             </div>
             <div className="about-main-content-second-row-item">
               <div className="second-row-item-image">
-                <Image src="/images/about-image.png" height={620} width={650} />
+                <Image
+                  src="/images/about-image.png"
+                  height={620}
+                  width={650}
+                  alt="About Image"
+                />
               </div>
             </div>
           </div>

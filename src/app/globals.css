@@ -1,8 +1,14 @@
+/* Animation */
+@keyframes mymove {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /* Body Style */
 body {
   padding: 0;
   margin: 0;
-  scrollbar-width: 10px;
 }
 /* Container & Container Fluid Style */
 .container {
@@ -160,4 +166,7 @@ h2.banner-second-heading span.banner-second-heading-span {
   font-size: 35px;
   font-weight: bold;
   color: #000;
+}
+.about-rotate-img {
+  animation: mymove 4000ms infinite;
 }

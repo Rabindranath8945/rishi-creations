@@ -7,7 +7,12 @@ export default function Header() {
         <div className="container-fluid">
           <div className="header-inner">
             <div className="header-logo">
-              <Image src="next.svg" height={100} width={100} />
+              <Image
+                src="next.svg"
+                height={100}
+                width={100}
+                alt="Header Logo"
+              />
             </div>
             <div className="header-menu">
               <ul className="header-menu-list">
