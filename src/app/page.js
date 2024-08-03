@@ -1,11 +1,9 @@
-import Header from "./components/Header";
-import About from "./components/About";
+import Main from "./pages/Main";
 
-export default function Home() {
+export default function Page() {
   return (
     <>
-      <Header />
-      <About />
+      <Main />
     </>
   );
 }
