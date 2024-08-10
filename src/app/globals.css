@@ -4519,7 +4519,7 @@ html.menu-is-open .menu-canvas-layer {
   }
 }
 .rs-banner-2 {
-  background-image: url(/public/assets/images/banner/home-banner-bg-2.jpg);
+  background-image: url(/public/home-banner-bg-2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

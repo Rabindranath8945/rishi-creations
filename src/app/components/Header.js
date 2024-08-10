@@ -97,10 +97,10 @@ export default function Header() {
               <div className="rs-menu-area">
                 <div className="logo-area">
                   <a href="index.html">
-                    <img src="assets/images/techzen_logo_home_2.png" alt="" />
+                    <img src="/techzen_logo_home_2.png" alt="" />
                   </a>
                   <a href="index.html">
-                    <img src="assets/images/techzen_logo_home_2.png" alt="" />
+                    <img src="/techzen_logo_home_2.png" alt="" />
                   </a>
                 </div>
                 <div className="rs-header-rightside">
@@ -465,7 +465,7 @@ export default function Header() {
         <div id="loader" className="loader">
           <div className="loader-container">
             <div className="loader-icon">
-              <img src="assets/images/favicon.png" alt="" />
+              <img src="/favicon.png" alt="" />
             </div>
           </div>
         </div>

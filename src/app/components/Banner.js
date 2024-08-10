@@ -10,7 +10,7 @@ export default function Banner() {
             <div className="col-lg-8">
               <div className="rs-banner-2__content">
                 <Image
-                  src="/assets/images/banner/image-year.png"
+                  src="/image-year.png"
                   height={350}
                   width={500}
                   className="wow fadeInDown"
@@ -24,14 +24,14 @@ export default function Banner() {
                   data-wow-delay="0.4s"
                 >
                   <Image
-                    src="/assets/images/heart-pulse-rate-orange-2.svg"
+                    src="/heart-pulse-rate-orange-2.svg"
                     height={100}
                     width={100}
                     alt="Heart Pulse"
                   />
                   <span> Welcome To Techzen </span>
                   <Image
-                    src="/assets/images/heart-pulse-rate-orange-2.svg"
+                    src="/heart-pulse-rate-orange-2.svg"
                     height={100}
                     width={100}
                     alt="Heart Pulse"
